@@ -1,0 +1,38 @@
+<div>
+    <h1 class="title">Angular Calculator</h1>
+
+    <div class="display" type="text">| Input : {{input}} | </div>
+    <div class="display" type="text">| Result:  {{result}} |</div>
+    <div class = "display" type="text">| {{display}} |</div>
+
+    <div>
+      <button class="button function" type="button" (click)="allClear()">clr</button>
+      <button class="button function" type="button" (click)="clear()">del</button>
+      <button class="button operator" type="button" (click)="pressOperator('/')">/</button>
+    </div>
+
+    <div>
+      <button class="button number" type="button" (click)="pressNum('7')">7</button>
+      <button class="button number" type="button" (click)="pressNum('8')">8</button>
+      <button class="button number" type="button" (click)="pressNum('9')">9</button>
+      <button class="button operator" type="button" (click)="pressOperator('*')">*</button>
+    </div>
+
+    <div>
+      <button class="button number" type="button" (click)="pressNum('4')">4</button>
+      <button class="button number" type="button" (click)="pressNum('5')">5</button>
+      <button class="button number" type="button" (click)="pressNum('6')">6</button>
+      <button class="button operator" type="button" (click)="pressOperator('-')">-</button>
+    </div>
+    <div>
+      <button class="button number" type="button" (click)="pressNum('1')">1</button>
+      <button class="button number" type="button" (click)="pressNum('2')">2</button>
+      <button class="button number" type="button" (click)="pressNum('3')">3</button>
+      <button class="button operator" type="button" (click)="pressOperator('+')">+</button>
+    </div>
+    <div>
+      <button class="button number" type="button" (click)="pressNum('.')">.</button>
+      <button class="button number" type="button" (click)="pressNum('0')">0</button>
+      <button class="button operator" type="button" (click)="getAnswer()">=</button>
+    </div>
+</div>

@@ -1,0 +1,59 @@
+.title {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.display {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.button {
+    border: solid 2px #000000;
+    color: white;
+    width: 100px;
+    height: 72px;
+    padding: 10px 10px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: #222222;
+    box-shadow: 1px 2px #333333;
+}
+
+.operator {
+    background-color: #000000;
+}
+
+.operator:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.number {
+    background-color: #82b74b;
+}
+
+.number:hover {
+    background-color: #cc3333;
+}
+
+.function {
+    background-color: #cc3333;
+}
+
+.function:hover {
+    background-color: #82b74b;
+}
+
